@@ -1,0 +1,29 @@
+{
+  "name": "my-super-app",
+  "version": "1.0.0",
+  "description": "Sample micro frontend architecture with skipper, tailor and razzles",
+  "author": "quangrau",
+  "scripts": {
+    "start": "node index.js",
+    "bootstrap": "lerna bootstrap",
+    "build-fragments": "lerna run build",
+    "watch-fragments": "lerna run watch",
+    "start-fragments": "lerna run start --stream --parallel"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "lerna": "^3.4.3",
+    "node-tailor": "^3.9.2",
+    "prettier": "^1.15.2",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
+}

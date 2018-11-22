@@ -1,0 +1,7 @@
+index:
+  Path("/")
+  -> "http://localhost:8080"
+
+login:
+  Path("/login")
+  -> "http://localhost:8081"
